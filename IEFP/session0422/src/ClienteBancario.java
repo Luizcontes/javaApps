@@ -8,6 +8,9 @@ public class ClienteBancario {
         this.nomeCliente = nome;
     }
 
+    public ClienteBancario() {
+    }
+
     public String getNomeCliente() {
         return nomeCliente;
     }

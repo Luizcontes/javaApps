@@ -1,9 +1,10 @@
 import src.ClienteBancario;
+import src.ContaPoupanca;
 
 public class Teste {
     
     public static void main (String[] args) {
-        ClienteBancario banc = new ClienteBancario("Luiz");
+        ClienteBancario banc = new ContaPoupanca("Luiz");
 
         banc.setNif(298909383);
 

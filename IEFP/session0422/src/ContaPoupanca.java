@@ -1,5 +1,9 @@
 package src;
 
-public class ContaPoupanca {
+public class ContaPoupanca extends ContaStandard {
+
+    public ContaPoupanca(String nome) {
+        super(nome);
+    }
     
 }

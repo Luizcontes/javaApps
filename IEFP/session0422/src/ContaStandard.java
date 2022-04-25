@@ -1,5 +1,12 @@
 package src;
 
-public class ContaStandard {
+public class ContaStandard extends ClienteBancario {
+
+    public ContaStandard(String nome) {
+        super(nome);
+    }
+
+    public ContaStandard() {
+    }
         
 }
